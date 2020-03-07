@@ -4,7 +4,14 @@ A Most Simple PHP MVC Beginners Tutorial
 Just a demo application related to one of my blog posts: [A Most Simple PHP MVC Beginners Tutorial](http://requiremind.com/a-most-simple-php-mvc-beginners-tutorial/).
 
 This shows how one can build an MVC app with PHP.
-
+## Mysql
+```php
+CREATE TABLE `posts` (
+  `id` int(11) NOT NULL,
+  `author` varchar(255) NOT NULL,
+  `content` text NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+```
 ## License
 
 MIT License (MIT)
